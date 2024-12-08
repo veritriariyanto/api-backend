@@ -1,0 +1,66 @@
+# Laravel environment files
+.env
+.env.*.backup
+
+# Node modules
+/node_modules
+
+# Composer vendor directory
+/vendor
+
+# Laravel log files
+/storage/logs
+/storage/framework/cache/data
+/storage/framework/sessions
+/storage/framework/testing
+/storage/framework/views
+
+# Laravel storage (except for public storage)
+!storage/app/public
+/storage/app/*
+/storage/temp
+/public/storage
+
+# Cache and compiled files
+/bootstrap/cache/*
+!bootstrap/cache/.gitignore
+
+# IDE and editor specific files
+.idea
+.vscode
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# PHPUnit result cache
+.phpunit.result.cache
+
+# Deployment tools files
+.env.backup
+.env.local
+.env.development
+.env.production
+.env.staging
+
+# Docker files
+docker-compose.override.yml
+
+# Miscellaneous
+*.log
+*.bak
+*.swp
+*.swp~
+*.swo
+*.sw~
+
+# NPM Debug Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Pipelines and CI files (optional, uncomment if needed)
+# .circleci
+# .github
